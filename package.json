@@ -1,0 +1,29 @@
+{
+  "name": "NLW2-Discovery",
+  "version": "1.0.0",
+  "description": "Projeto NLW2 Discovery, reforçando conceitos básicos antes do Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcospsw/NLW2-Discovery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcospsw/NLW2-Discovery/issues"
+  },
+  "homepage": "https://github.com/marcospsw/NLW2-Discovery#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2",
+    "sqlite-async": "^1.1.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
